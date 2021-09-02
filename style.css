@@ -109,7 +109,7 @@ a {
     content: '';
     position: absolute;
     top: 96%;
-    left: 15px;
+    left: 0;
     right: 0;
     width: 100%;
     height: 3px;
@@ -120,7 +120,7 @@ a {
 }
 
 .header-menu ul li a.alada:hover::after{
-    width: 70%;
+    width: 100%;
     transform: scaleX(1);
 }
 
@@ -258,6 +258,7 @@ a {
 
 .work:hover{
     background: #dedcda;
+    cursor: pointer;
 }
 
 .work-img img{
@@ -335,6 +336,10 @@ a {
 .about-section-content details summary {
     font-size: 20px;
     font-weight: 300;
+}
+
+.about-section-content details summary:hover{
+    cursor: pointer;
 }
 
 .about-section-content span a {
